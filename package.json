@@ -17,10 +17,19 @@
     "gulpplugin"
   ],
   "dependencies": {
-    "event-stream": "~3.0.15",
-    "imagemagick": "~0.1.3",
+    "event-stream": "~3.1.0",
     "gulp-util": "~2.2.0",
-    "mkdirp": "~0.3.5"
+    "imagemagick-native": "~0.2.9"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/diffalot/gulp-scalemagick/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "gulp-scalemagick@0.0.0",
+  "dist": {
+    "shasum": "bc4b83efc4d1e9a445465411eaf44e3bf0ce2297"
+  },
+  "_resolved": "git+https://github.com/diffalot/gulp-scalemagick.git#c26b624b75cd63dcfece018ae084a3204f7bf9f4",
+  "_from": "gulp-scalemagick@git+https://github.com/diffalot/gulp-scalemagick.git"
 }

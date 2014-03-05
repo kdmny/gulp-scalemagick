@@ -14,15 +14,9 @@ module.exports = function(options) {
     if ( (info.height%2) === 1 ) {
       heightShift = 1;
     }
-    var cropOptions ={
-      resizeStyle: 'fill',
-      srcData: file.contents,
-      width: info.width+widthShift,
-      height: info.height+heightShift
-    }
-    var filled = im.convert(cropOptions);
     var resizeOptions ={
-      srcData: filled,
+      resizeStyle: 'aspectfit',
+      srcData: file.contents,
       width: (info.width+widthShift)/2,
       height: (info.height+heightShift)/2
     };
